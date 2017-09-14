@@ -9,7 +9,7 @@ const myWork = [
     'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     'image': {
       'desc': "",
-      'src': "/images/work-example.weather-app.png",
+      'src': "../imgs/work-example-weather-app.png",
       'comment': ""
     }
   },
@@ -19,7 +19,7 @@ const myWork = [
     'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     'image': {
       'desc': "",
-      'src': "../images/work-exam21.png",
+      'src': "../imgs/work-exam21.png",
       'comment': ""
     }
   },
@@ -49,7 +49,7 @@ const myWork = [
     'desc': "This is an example of a squarespace site I put together for a local non-profit. The CEO granted me permission to share my work (hopefully giving his organization some additional exposure). Although we had design disagreements (i.e., the quality of the logo and his desire to have the logo featured at the top of every page), I thought the site worthy of including in my portfolio because it highlights my grasp of template utilization using squarespace and manipulating the various CSS concepts such as parallax scrolling in addition to the overall functionality of the site. If you follow the link you will be re-directed to the site.",
     'image': {
       'desc': "",
-      'src': "../images/ircs_screen_shot.png",
+      'src': "../imgs/work-example-ircs.png",
       'comment': ""
     }
   },
