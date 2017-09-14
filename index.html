@@ -14,15 +14,10 @@
   <body>
     <main class="overflow--auto">
       <h1 class="color--skyBlue section__heading--largest">
-        <!--Your name goes here -->
         JEROL GRAVES
       </h1>
 
       <ul class="section--social">
-
-        <!--Links to relevant professional social media & resume -->
-        <!-- See: http://fontawesome.io/icons/#brand for more -->
-
         <!-- Link to Linked In profile -->
         <li class="socialWrapper">
           <a class="color--skyBlue social"
@@ -43,7 +38,7 @@
           </a>
         </li>
 
-        <!-- Link to resume, probably a .pdf -->
+        <!-- Link to resume -->
         <li class="socialWrapper">
           <a class="social color--skyBlue"
              title="Resume"
@@ -54,11 +49,17 @@
       </ul>
     </main>
 
-    <section class="background--skyBlue section">
+    <section>
 
-      <h2 class="color--cloud margin--none section__text--centered">
+      <div class="jumbotron">
+        <video id="bg-video" autoplay="true" loop="loop" preload="metadata" muted="muted">
+            <source src="https://s3.amazonaws.com/jumbotron-video/jumbotron-file.mp4" type="video/mp4" />
+        </video>
+        <div class="center jumbovidtext"></div>
+      </div>
+<h1 class="color--cloud margin--none section__text--centered">
         Portfolio
-      </h2>
+      </h1>
     </section>
 
     <div id="example-work"></div>
@@ -77,7 +78,7 @@
         I want to work for a company that will pay me to code in the cloud!
       </p>
 
-    
+
 
     <script type="text/javascript" src="dist/bundle.js"></script>
   </body>
