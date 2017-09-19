@@ -6,7 +6,7 @@ const myWork = [
   {
     'title': "Weather App",
     'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'desc': "For this project I used a Create React backbone with the content from the Udemy tutorial which was built using mainly HTML.  I recreated the DOM elements as re-usable React components, then made the styling and the functionality similar to the Weather App found on the iphone.  The takeway from this project is that while I was learning java I fell in love with object-oriented programming and wanted to continue that ideology in my application development.  Once the app was finished I hosted the content in an S3 bucket with AWS.",
     'image': {
       'desc': "",
       'src': "/images/work-example-weather-app.png",

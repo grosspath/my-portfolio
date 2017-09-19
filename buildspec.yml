@@ -11,5 +11,7 @@ phases:
 artifacts:
   files:
     - index.html
+    - images/*
+    - professional_resume.pdf
     - styles.css
     - dist/bundle.js

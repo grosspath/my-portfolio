@@ -60,6 +60,15 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .1rem;
 }
 
+
+/*
+Jumbotron
+*/
+
+#bg-video {
+  width: 100%;
+}
+
 /*
   Helpers
 */
@@ -111,8 +120,8 @@ h1, h2, h3, h4, h5, h6 {
 .section__exampleWrapper,
 .section__example {
   display: inline-block;
-  height: 35rem;
-  width: 35rem;
+  height: 35vh;
+  width: 35vh;
 }
 
 .section__exampleWrapper {
@@ -120,16 +129,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__example {
-  border-radius: 100%;
   cursor: pointer;
   overflow: hidden;
-  position: relative;
+  position: absolute;
 }
 
 .section__example:active {
   transition: 0.05s all;
-  width: 34rem;
-  height: 34rem;
+  width: 35vh;
+  height: 35vh;
 }
 
 .section__exampleTitle{
@@ -140,8 +148,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__exampleImage {
-  opacity: 0.4;
-  width: 350%;
+  opacity: 0.2;
+  width: 300%;
   margin-left: -50%;
   margin-top: -50%;
 }
@@ -200,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   right: 5rem;
   top: 5rem;
-  font-size: 3vw;;
+  font-size: 3vw;
   z-index: 1;
   cursor: pointer;
 }
