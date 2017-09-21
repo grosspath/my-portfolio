@@ -92,6 +92,7 @@ Jumbotron
   position: relative;
   padding-top: 5rem;
   padding-bottom: 5rem;
+
 }
 
 .section--alignCentered {
@@ -122,10 +123,11 @@ Jumbotron
   display: inline-block;
   height: 35vh;
   width: 35vh;
+  margin-left: -8%;
 }
 
 .section__exampleWrapper {
-  margin-right: 4rem;
+  margin: 0px 20px;
 }
 
 .section__example {
