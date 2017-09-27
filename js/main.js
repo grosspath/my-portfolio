@@ -26,7 +26,7 @@ const myWork = [
     }
   },
   {
-    'title': "Work Example",
+    'title': "Java Code",
     'href': "https://example.com",
     'desc': "In development",
     'desc': "These are examples of files I created using the tutorial from HackerRank's tutorial 'Thirty Days of Code'.  My experience learning java taught me the beauty of object-oriented programming which has enhanced my understanding of javascript.",
