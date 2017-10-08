@@ -5,7 +5,7 @@ import ExampleWork from './example-work';
 const myWork = [
   {
     'title': "Weather App",
-    'href': "https://example.com",
+    'href': "https://s3.amazonaws.com/p.weather-app/index.html",
     'desc': "In development",
     'desc': "For this project I used a tutorial from Udemy which had the information rendered from the index.html page and refactored it to use React and React-router. The takeway from this project is that while I was learning java I fell in love with object-oriented programming and wanted to continue that ideology in my application development.  Once the app was finished I hosted the content in an S3 bucket with AWS.",
     'image': {
