@@ -6,11 +6,10 @@ const myWork = [
   {
     'title': "Weather App",
     'href': "https://s3.amazonaws.com/p.weather-app/index.html",
-    'desc': "In development",
-    'desc': "For this project I used a tutorial from Udemy which had the information rendered from the index.html page and refactored it to use React and React-router. The takeway from this project is that while I was learning java I fell in love with object-oriented programming and wanted to continue that ideology in my application development.  Once the app was finished I hosted the content in an S3 bucket with AWS.",
+    'desc': "For this project, the inspiration came from a tutorial produced Udemy which had the information rendered from the index.html page and refactored it to use React and React-router. The takeway from this project is that while I was learning java I fell in love with object-oriented programming and wanted to continue that ideology in my application development.  Once the app was finished I hosted the content in an S3 bucket with AWS.  The build is handled by code pipeline and it is deployed by a lambda function.",
     'image': {
       'desc': "",
-      'src': "../images/weather-app.png",
+      'src': "../images/weatherApp_recent.png",
       'comment': ""
     }
   },
