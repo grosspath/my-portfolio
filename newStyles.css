@@ -1,0 +1,268 @@
+/*
+  Theme colors
+    All selectors with colors that would need
+    to be changed for theme changes
+*/
+
+/*
+  COLORS
+  Sky
+    rgb(52, 152, 219)
+  Dark Blue
+    rgb(44, 62, 80)
+  Grey
+    rgb(127, 140, 141)
+  Cloud
+    rgb(236, 240, 241)
+*/
+
+.background--skyBlue {
+  background-color: #79b791;
+}
+
+.color--skyBlue {
+  color: #44a1a0;
+}
+
+.color--cloud {
+  color: rgb(236, 240, 241);
+}
+
+.color--grey {
+  color: rgb(127, 140, 141);
+}
+
+.color--darkgrey {
+  color: rgb(44, 62, 80);
+}
+
+.section__example {
+  background-color: rgb(44, 62, 80);
+}
+
+/*
+  General Styles
+    These are styles to be inherited
+    through parent containers
+*/
+
+html {
+
+}
+
+body {
+  font-family: 'Montserrat', serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .1rem;
+}
+
+
+/*
+Jumbotron
+*/
+
+#bg-video {
+  width: 100%;
+}
+
+/*
+  Helpers
+*/
+
+.margin--none {
+  margin: 0;
+}
+
+.overflow--auto {
+  overflow: auto;
+}
+
+
+/*
+  Sections
+*/
+
+
+.example__section {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.about-me__section,
+.portfolio__section {
+  height: 5vw;
+  text-align: center;
+  padding-bottom: 2vw;
+  font-size: 3.8vw;
+  color: white;
+}
+
+.about-me__section {
+  padding-top: 2vw;
+  position: relative;
+}
+
+.section__example,
+.section__exampleWrapper {
+  height: 18vw;
+  width: 18vw;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.5vw;
+}
+
+.section__example:active {
+  transition: 0.05s all;
+  height: 18vw;
+  width: 18vw;
+
+}
+
+.section__exampleTitle {
+  font-size: 1.2vw;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.section__exampleImage {
+  opacity: 0.2;
+  width: 200%;
+
+}
+
+/*
+  Header
+*/
+
+.section__heading--largest {
+  float: left;
+  font-size: 4vw;
+  margin-left: 2vw;
+}
+
+.section--social {
+  float: right;
+  line-height: 6vw;
+  margin-right: 2vw;
+}
+
+.social {
+  margin-right: 1vw;
+}
+
+.socialWrapper:last-child .social {
+  margin-right: 0;
+}
+
+.socialWrapper {
+  display: inline-block;
+  font-size: 2.4vw;
+  margin-top: 1vw;
+}
+
+
+/*
+  Modal
+*/
+
+.modal--closed {
+  display: none;
+}
+
+.modal--open {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.modal__closeButton {
+  position: absolute;
+  right: 5rem;
+  top: 5rem;
+  font-size: 3vw;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.modal__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2.4rem;
+  padding: 2rem;
+  width: 66%;
+}
+
+.modal__link {
+  background-color: white;
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.modal__image {
+  opacity: 0.2;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  flex-grow:
+}
+
+
+.ideal {
+  width: 80%;
+  font-size: 1vw;
+  margin: 0 auto;
+  padding: 1vw;
+}
+
+.me, .work, .next {
+  font-weight: bolder;
+  font-size: 0.8vw;
+  background-color: #acad94;
+  border: 2px solid black;
+  padding: 1vw;
+  margin: 1vw;
+  width: 20vw;
+  height: 20vw;
+  opacity: 0.9;
+}
+
+img {
+  width: 10vw;
+  display: block;
+  margin: auto;
+}
+
+.homage__section {
+  text-align: center;
+  padding: 2vw;
+  font-size: 2vw;
+}
+
+.homage > img {
+  width: 30vw;
+  padding: 0.1vw;
+  box-shadow: 0 1vw 2vw #000;
+
+}

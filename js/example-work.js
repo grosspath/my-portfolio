@@ -30,7 +30,7 @@ class ExampleWork extends React.Component {
   render() {
     return (
       <span>
-        <section className="section section--alignCentered section--description">
+        <section className="section section--alignCentered section--description example__section">
 
           { this.props.work.map( (example, idx) => {
             return (

@@ -42,7 +42,7 @@ const myWork = [
     // 'desc': "For this project I used a Create React backbone with the content from the Udemy tutorial which was built using mainly HTML.  I recreated the DOM elements as re-usable React components, then made the styling and the functionality similar to the Weather App found on the iphone.  The takeway from this project is that while I was learning java I fell in love with object-oriented programming and wanted to continue that ideology in my application development.  Once the app was finished I hosted the content in an S3 bucket with AWS.",
     'image': {
       'desc': "",
-      'src': "",
+      'src': "../images/java_files.png",
       'comment': ""
     }
   },

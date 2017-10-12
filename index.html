@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Jerol Graves: Cloud Developer</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="newStyles.css"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
@@ -58,7 +58,7 @@
         </video>
         <div class="center jumbovidtext"></div>
       </div>
-      <h1 class="color--cloud margin--none section__text--centered">
+      <h1 class="portfolio__section">
         Portfolio
       </h1>
     </section>
@@ -68,21 +68,85 @@
 
 
     <section class="background--skyBlue section">
-      <h2 class="color--cloud margin--none section__text--centered">
+      <h2 class="about-me__section">
         About Me
       </h2>
     </section>
 
-    <section class="section section--alignCentered section--description">
-      <p class="color--darkgrey section__description">
-        I am learning to code in the cloud! I like to work hard and learn new things.
-        I want to work for a company that will allow me to continue to develop my skills as a full-stack
-        developer who understands the process from build to deployment! My current learning tracks include
-        studying to become AWS certified.
+    <section>
+
+      <p class="ideal">
+        I have a varied work history, abundant soft skills and excellent communication skills.  I work well with others and consider myself to be a servant leader.  The ideal working environment will have high expectations that are tempered with patience and understanding.  I am not afraid to ask for help when I am stuck.  I am going to exhaust my on-line resources (usually stackoverflow) before asking another tech to divert her/his attention from what they are doing to lead me out of the weeds.  If that sounds like the kind of applicant you are looking for then I would like to add that I show up early, stay late, work weekends and I lend a hand when my services are required whether the task is in my job description or not.  I am a live and let live kind of human. The Agile workplace is the place for me!
       </p>
 
+    </section>
 
+    <section class="profile">
+
+      <div class="me">
+        <p>
+          I am an old dog learning new tricks. Husband and a father.  I enjoy the outdoors....cycling, kayaking, crabbing, and the beach.  I love golf and would really love to shoot more rounds in the 80's.  I am active in a local non-profit and I enjoy my Cowboys.  There is a special place in my heart for food trucks and craft beer.
+        </p>
+        <img src="./images/roti.jpg"/>
+      </div>
+
+      <div class="work">
+        <p>
+          Since graduation I have focused on my on-line learning.  I spend my days going through video lessons and learning new technologies.  I spend my nights reading. I have recently focused my attention on building a portfolio. When I get anxious or stuck on something I have my walking companion by my  side ready to accompany me on a trist around the neighborhood.
+        </p>
+        <img src="./images/grover.jpg"/>
+      </div>
+
+      <div class="next">
+        <p>
+          Java introduced me to object-oriented programming and that has made all the difference.  It has enhanced my understanding of javascript.  I look forward to landing a position where I can learn to build efficient, well-documented Java code.  A bonus would be a position where I could cultivate my chops as a full-stack developer and work in the cloud.
+        </p>
+        <img src="./images/tiy.jpg" />
+      </div>
+
+    </section>
+
+    <section class="homage__section">
+
+      <h1>Homage to The Iron Yard....you will be missed</h1>
+
+      <div class="homage">
+
+        <img class="pics" src="./images/tiy.jpg" />
+        <img class="pics" src="./images/birdnest.jpg" />
+        <img class="pics" src="./images/code.jpg" />
+        <img class="pics" src="./images/door.jpg" />
+        <img class="pics" src="./images/harbor.jpg" />
+        <img class="pics" src="./images/lounge.jpg" />
+        <img class="pics" src="./images/marquee.jpg" />
+        <img class="pics" src="./images/partners.jpg" />
+        <img class="pics" src="./images/pong.jpg" />
+        <img class="pics" src="./images/screen.jpg" />
+        <img class="pics" src="./images/study.jpg" />
+
+      </div>
+
+    </section>
 
     <script type="text/javascript" src="dist/bundle.js"></script>
+    <script>
+      var slideIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("pics");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {
+          slideIndex = 1;
+        }
+        x[slideIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000);
+      }
+    </script>
+
   </body>
 </html>
