@@ -201,6 +201,10 @@ Jumbotron
   cursor: pointer;
 }
 
+.modal__description {
+  font-size: 2vw;
+}
+
 .modal__text {
   position: absolute;
   top: 0;
@@ -216,10 +220,12 @@ Jumbotron
   padding: 0.4rem 1rem;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 1vw;
 }
 
 .modal__image {
-  opacity: 0.2;
+  opacity: 0.1;
+  width: 100%;
 }
 
 .profile {

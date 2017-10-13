@@ -5,8 +5,8 @@ import ExampleWork from './example-work';
 const myWork = [
   {
     'title': "Weather App",
-    'href': "https://s3.amazonaws.com/p.weather-app/index.html",
-    'desc': "For this project, the inspiration came from a tutorial produced Udemy which had the information rendered from the index.html page and refactored it to use React and React-router. The takeway from this project is that while I was learning java I fell in love with object-oriented programming and wanted to continue that ideology in my application development.  Once the app was finished I hosted the content in an S3 bucket with AWS.  The build is handled by code pipeline and it is deployed by a lambda function.",
+    'href': "https://s3.amazonaws.com/weatherapppics/weather3.png",
+    'desc': "For this project, the inspiration came from a tutorial produced by Udemy which had the entire project rendered from the index.html page. I refactored it to use React and React-router.",
     'image': {
       'desc': "",
       'src': "../images/weatherApp_recent.png",
@@ -15,9 +15,8 @@ const myWork = [
   },
   {
     'title': "Etsy Clone",
-    'href': "https://example.com",
-    'desc': "In development",
-    // 'desc': "For this project I used a Create React backbone with the content from the Udemy tutorial which was built using mainly HTML.  I recreated the DOM elements as re-usable React components, then made the styling and the functionality similar to the Weather App found on the iphone.  The takeway from this project is that while I was learning java I fell in love with object-oriented programming and wanted to continue that ideology in my application development.  Once the app was finished I hosted the content in an S3 bucket with AWS.",
+    'href': " https://s3.amazonaws.com/etsypics/etsy1.png",
+    'desc': "This project was a homework assignment that is intended to be a mock-up of the Etsy website.  It reprents a learning point where I combined SCSS, HTML, React, Backbone and an API request to add content.",
     'image': {
       'desc': "",
       'src': "../images/work-exam21.png",
@@ -26,9 +25,9 @@ const myWork = [
   },
   {
     'title': "Java Code",
-    'href': "https://example.com",
+    'href': "https://github.com/grosspath/java",
     'desc': "In development",
-    'desc': "These are examples of files I created using the tutorial from HackerRank's tutorial 'Thirty Days of Code'.  My experience learning java taught me the beauty of object-oriented programming which has enhanced my understanding of javascript.",
+    'desc': "These are examples of files I created using the tutorial from HackerRank's tutorial 'Thirty Days of Code'.  My experience learning java taught me the beauty of object-oriented programming which has enhanced my understanding of javascript. The code for the java files can be found in my github repo.",
     'image': {
       'desc': "",
       'src': "../images/java_files.png",
@@ -36,13 +35,12 @@ const myWork = [
     }
   },
   {
-    'title': "Work Example",
-    'href': "https://example.com",
-    'desc': "In development",
-    // 'desc': "For this project I used a Create React backbone with the content from the Udemy tutorial which was built using mainly HTML.  I recreated the DOM elements as re-usable React components, then made the styling and the functionality similar to the Weather App found on the iphone.  The takeway from this project is that while I was learning java I fell in love with object-oriented programming and wanted to continue that ideology in my application development.  Once the app was finished I hosted the content in an S3 bucket with AWS.",
+    'title': "Grab Bag",
+    'href': "https://s3.amazonaws.com/grabbagtictactoe/tictactoe.png",
+    'desc': "These files represent a hodgepodge of projects that range from homework assignments to tutorials I took on-line.  The bulk of my Iron Yard training involved styling with HTML and CSS for the first four weeks.  The remainder of the time was spent on Javascript, jQuery, Backbone and React.  The code can be found in my github repos.",
     'image': {
       'desc': "",
-      'src': "../images/java_files.png",
+      'src': "../images/styling.png",
       'comment': ""
     }
   },
