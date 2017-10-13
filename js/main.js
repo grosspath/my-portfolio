@@ -9,17 +9,17 @@ const myWork = [
     'desc': "For this project, the inspiration came from a tutorial produced by Udemy which had the entire project rendered from the index.html page. I refactored it to use React and React-router.",
     'image': {
       'desc': "",
-      'src': "../images/weatherApp_recent.png",
+      'src': "./images/weatherApp_recent.png",
       'comment': ""
     }
   },
   {
     'title': "Etsy Clone",
     'href': " https://s3.amazonaws.com/etsypics/etsy1.png",
-    'desc': "This project was a homework assignment that is intended to be a mock-up of the Etsy website.  It reprents a learning point where I combined SCSS, HTML, React, Backbone and an API request to add content.",
+    'desc': "This project was a homework assignment that is intended to be a mock-up of the Etsy website.  It represents a learning point where I combined SCSS, HTML, React, Backbone and an API request to add content.",
     'image': {
       'desc': "",
-      'src': "../images/work-exam21.png",
+      'src': "./images/work-exam21.png",
       'comment': ""
     }
   },
@@ -27,10 +27,10 @@ const myWork = [
     'title': "Java Code",
     'href': "https://github.com/grosspath/java",
     'desc': "In development",
-    'desc': "These are examples of files I created using the tutorial from HackerRank's tutorial 'Thirty Days of Code'.  My experience learning java taught me the beauty of object-oriented programming which has enhanced my understanding of javascript. The code for the java files can be found in my github repo.",
+    'desc': "These are examples of files I created using the tutorial from HackerRank's 'Thirty Days of Code'.  My experience learning java taught me the beauty of object-oriented programming which has enhanced my understanding of javascript. The code for the java files can be found in my github repo.",
     'image': {
       'desc': "",
-      'src': "../images/java_files.png",
+      'src': "./images/java_files.png",
       'comment': ""
     }
   },
@@ -40,7 +40,7 @@ const myWork = [
     'desc': "These files represent a hodgepodge of projects that range from homework assignments to tutorials I took on-line.  The bulk of my Iron Yard training involved styling with HTML and CSS for the first four weeks.  The remainder of the time was spent on Javascript, jQuery, Backbone and React.  The code can be found in my github repos.",
     'image': {
       'desc': "",
-      'src': "../images/styling.png",
+      'src': "./images/styling.png",
       'comment': ""
     }
   },
@@ -50,7 +50,7 @@ const myWork = [
     'desc': "This is an example of a squarespace site I put together for a local non-profit. The CEO granted me permission to share my work (hopefully giving his organization some additional exposure). Although we had design disagreements (i.e., the quality of the logo and his desire to have the logo featured at the top of every page), I thought the site worthy of including in my portfolio because it highlights my grasp of template utilization using squarespace and manipulating the various CSS concepts such as parallax scrolling in addition to the overall functionality of the site. If you follow the link you will be re-directed to the site.",
     'image': {
       'desc': "",
-      'src': "../images/work-example-ircs.png",
+      'src': "./images/work-example-ircs.png",
       'comment': ""
     }
   },
