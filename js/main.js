@@ -4,6 +4,15 @@ import ExampleWork from './example-work';
 
 const myWork = [
   {
+    'title': "Ravenous",
+    'href': " http://ravenous-portfolio.s3-website-us-east-1.amazonaws.com",
+    'desc': "This is from the codecademy course on building apps from scratch.",
+    'image': {
+      'desc': "",
+      'src': "./images/work-example-ircs.png",
+      'comment': ""
+    },
+  {
     'title': "Weather App",
     'href': "https://s3.amazonaws.com/weatherapppics/weather3.png",
     'desc': "For this project, the inspiration came from a tutorial produced by Udemy which had the entire project rendered from the index.html page. I refactored it to use React and React-router.",
@@ -43,17 +52,7 @@ const myWork = [
       'src': "./images/styling.png",
       'comment': ""
     }
-  },
-  {
-    'title': "Web Design",
-    'href': "https://ircsservices.org",
-    'desc': "This is an example of a squarespace site I put together for a local non-profit. The CEO granted me permission to share my work (hopefully giving his organization some additional exposure). Although we had design disagreements (i.e., the quality of the logo and his desire to have the logo featured at the top of every page), I thought the site worthy of including in my portfolio because it highlights my grasp of template utilization using squarespace and manipulating the various CSS concepts such as parallax scrolling in addition to the overall functionality of the site. If you follow the link you will be re-directed to the site.",
-    'image': {
-      'desc': "",
-      'src': "./images/work-example-ircs.png",
-      'comment': ""
-    }
-  },
+  }
 ]
 
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
