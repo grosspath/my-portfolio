@@ -11,7 +11,8 @@ const myWork = [
       'desc': "",
       'src': "./images/work-example-ircs.png",
       'comment': ""
-    },
+    }
+  },
   {
     'title': "Weather App",
     'href': "https://s3.amazonaws.com/weatherapppics/weather3.png",
