@@ -9,7 +9,7 @@ const myWork = [
     'desc': "This is from the codecademy course on building apps from scratch.",
     'image': {
       'desc': "",
-      'src': "./images/work-example-ircs.png",
+      'src': "./images/ravenous.png",
       'comment': ""
     }
   },
