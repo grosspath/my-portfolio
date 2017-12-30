@@ -12,6 +12,6 @@ artifacts:
   files:
     - index.html
     - images/*
-    - professional_resume.pdf
+    - devResume.pdf
     - styles.css
     - dist/bundle.js
