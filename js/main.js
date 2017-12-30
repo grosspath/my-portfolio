@@ -6,7 +6,7 @@ const myWork = [
   {
     'title': "Ravenous",
     'href': " http://ravenous-portfolio.s3-website-us-east-1.amazonaws.com",
-    'desc': "This is from the codecademy course on building apps from scratch.",
+    'desc': "This is from the codecademy course on building apps from scratch.  I used the create react app and I have hosted the app in an AWS S3 bucket.  It is intended to be a Yelp clone.",
     'image': {
       'desc': "",
       'src': "./images/ravenous.png",
