@@ -6,7 +6,7 @@ const myWork = [
   {
     'title': "Ravenous",
     'href': " http://ravenous-portfolio.s3-website-us-east-1.amazonaws.com",
-    'desc': "This is from the codecademy course on building apps from scratch.  I used the create react app and I have hosted the app in an AWS S3 bucket.  It is intended to be a Yelp clone.",
+    'desc': "This is from the codecademy course on building apps from scratch.  I used the create react app and hosted it in an AWS S3 bucket.  It is intended to be a Yelp clone.  The techologies employed are javascript, React, CSS, and HTML.",
     'image': {
       'desc': "",
       'src': "./images/ravenous.png",
@@ -14,6 +14,15 @@ const myWork = [
     }
   },
   {
+    'title': "Jamming Spotify App",
+    'href': "http://jgjamming.s3-website-us-east-1.amazonaws.com",
+    'desc': "Working with the spotify API a user can use this app and create a playlist in their spotify account.  Again I used the create react app build and hosted it in an S3 bucket in the AWS cloud.  My tech stack is javascript, React, CSS, and HTML.",
+    'image': {
+      'desc': "",
+      'src': "./images/Jammming.png",
+      'comment': ""
+    }
+  },{
     'title': "Weather App",
     'href': "https://s3.amazonaws.com/weatherapppics/weather3.png",
     'desc': "For this project, the inspiration came from a tutorial produced by Udemy which had the entire project rendered from the index.html page. I refactored it to use React and React-router.",
