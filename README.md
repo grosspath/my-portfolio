@@ -8,5 +8,7 @@ Brew
 Git and github
 HTML
 CSS
+Javascript
+ReactJS
 Font Awesome
 Google Fonts

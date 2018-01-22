@@ -89,7 +89,7 @@ Jumbotron
 
 .example__section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
 }
 
