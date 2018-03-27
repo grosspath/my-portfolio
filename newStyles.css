@@ -36,12 +36,6 @@
   color: rgb(44, 62, 80);
 }
 
-.section__example {
-  background-color: rgb(44, 62, 80);
-  margin-bottom: 4vh;
-  margin-top: 2vh;
-}
-
 /*
   General Styles
     These are styles to be inherited
@@ -69,6 +63,7 @@ Jumbotron
 
 #bg-video {
   width: 100%;
+  position: relative;
 }
 
 /*
@@ -88,13 +83,15 @@ Jumbotron
   Sections
 */
 
+#example-work {
+  position: relative;
+}
 
 .example__section {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   position: relative;
-  margin: 20px 100px;
 }
 
 .about-me__section,
@@ -109,16 +106,20 @@ Jumbotron
 .about-me__section {
   padding-top: 2vw;
   position: relative;
+
 }
 
-.section__example,
-.section__exampleWrapper {
-  height: 18vw;
-  width: 18vw;
+.section__example
+ {
+  width: 18vh;
+  height: 18vh;
   cursor: pointer;
   overflow: hidden;
   position: relative;
-  border-radius: 0.5vw;
+  border-radius: 0.2vw;
+  padding: 2vh;
+  background-color: rgb(44, 62, 80);
+  margin: 2vh;
 }
 
 .section__example:active {
