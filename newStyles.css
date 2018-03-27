@@ -38,6 +38,8 @@
 
 .section__example {
   background-color: rgb(44, 62, 80);
+  margin-bottom: 4vh;
+  margin-top: 2vh;
 }
 
 /*
@@ -89,8 +91,10 @@ Jumbotron
 
 .example__section {
   display: flex;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: space-around;
   position: relative;
+  margin: 20px 100px;
 }
 
 .about-me__section,
@@ -136,7 +140,7 @@ Jumbotron
 }
 
 .section__exampleImage {
-  opacity: 0.2;
+  opacity: 0.4;
   width: 200%;
 
 }

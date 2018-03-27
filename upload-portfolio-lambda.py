@@ -1,5 +1,4 @@
 import boto3
-from botocore.client import Config
 import StringIO
 import zipfile
 import mimetypes
@@ -23,7 +22,7 @@ def lambda_handler(event, context):
 
         print "Building portfolio from " + str(location)
 
-        s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
+        s3 = boto3.resource('s3')
 
         portfolio_bucket = s3.Bucket('portfolio.jerolgraves.com')
         build_bucket = s3.Bucket(location["bucketName"])
