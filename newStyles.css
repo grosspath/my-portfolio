@@ -42,9 +42,6 @@
     through parent containers
 */
 
-html {
-
-}
 
 body {
   font-family: 'Montserrat', serif;
@@ -63,7 +60,6 @@ Jumbotron
 
 #bg-video {
   width: 100%;
-  position: relative;
 }
 
 /*
@@ -83,9 +79,7 @@ Jumbotron
   Sections
 */
 
-#example-work {
-  position: relative;
-}
+
 
 .example__section {
   display: flex;
