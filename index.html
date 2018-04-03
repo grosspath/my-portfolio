@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Jerol Graves: Cloud Developer</title>
-    <link rel="stylesheet" href="newStyles.css"/>
-
+    <link rel="stylesheet" href="Newstyles.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cardo"/>
   </head>
 
   <body>
-    <main class="overflow--auto">
-      <h1 class="color--skyBlue section__heading--largest">
+
+    <main class="heading">
+
+      <h1  id="logo" class="color--skyBlue section__heading--largest">
         JEROL GRAVES
       </h1>
 
@@ -48,105 +48,40 @@
           </a>
         </li>
       </ul>
-    </main>
 
-    <section class="background--skyBlue section">
+    </main>
+    <section class="background--skyBlue">
 
       <div class="jumbotron">
         <video id="bg-video" autoplay="true" loop="loop" preload="metadata" muted="muted">
             <source src="https://s3.amazonaws.com/jumbotron-video/jumbotron-file.mp4" type="video/mp4" />
         </video>
-        <div class="center jumbovidtext"></div>
       </div>
       <h1 class="portfolio__section">
         Portfolio
       </h1>
     </section>
 
-    <div id="example-work"></div>
 
+    <div id="work"></div>
 
-
-    <section class="background--skyBlue section">
+    <section class="background--skyBlue">
       <h2 class="about-me__section">
         About Me
       </h2>
+      
     </section>
 
-    <section>
-
-      <p class="ideal">
-        I have a varied work history, abundant soft skills and excellent communication skills.  I work well with others and consider myself to be a servant leader.  The ideal working environment will have high expectations that are tempered with patience and understanding.  I am not afraid to ask for help when I am stuck.  I am going to exhaust my on-line resources (usually stackoverflow) before asking another tech to divert her/his attention from what they are doing to lead me out of the weeds.  If that sounds like the kind of applicant you are looking for then I would like to add that I show up early, stay late, work weekends and I lend a hand when my services are required whether the task is in my job description or not.  I am a live and let live kind of human. The Agile workplace is the place for me!
-      </p>
-
-    </section>
-
-    <section class="profile">
-
-      <div class="me">
-        <p>
-          I am an old dog learning new tricks. Husband and a father.  I enjoy the outdoors....cycling, kayaking, crabbing, and the beach.  I love golf and would really love to shoot more rounds in the 80's.  I am active in a local non-profit and I enjoy my Cowboys.  There is a special place in my heart for food trucks and craft beer.
-        </p>
-        <img src="./images/roti.JPG"/>
-      </div>
-
-      <div class="work">
-        <p>
-          Since graduation I have focused on my on-line learning.  I spend my days going through video lessons and learning new technologies.  I spend my nights reading. I have recently focused my attention on building a portfolio. When I get anxious or stuck on something I have my walking companion by my  side ready to accompany me on a trist around the neighborhood.
-        </p>
-        <img src="./images/grover.JPG"/>
-      </div>
-
-      <div class="next">
-        <p>
-          The create-react-app is a wonderful turnkey toolset.  I am able to host my projects in the cloud without stressing about the setup.  After I get some decent react projects hosted I am going to turn my attention back to my java projects and then maybe some python.
-        </p>
-        <img src="./images/tiy.JPG" />
-      </div>
-
-    </section>
-
-    <!-- <section class="homage__section">
-
-      <h1>Homage to The Iron Yard....you will be missed</h1>
-
-      <div class="homage">
-
-        <img class="pics" src="./images/tiy.JPG" />
-        <img class="pics" src="./images/birdnest.JPG" />
-        <img class="pics" src="./images/code.JPG" />
-        <img class="pics" src="./images/door.JPG" />
-        <img class="pics" src="./images/harbor.JPG" />
-        <img class="pics" src="./images/lounge.JPG" />
-        <img class="pics" src="./images/marquee.JPG" />
-        <img class="pics" src="./images/partners.JPG" />
-        <img class="pics" src="./images/pong.JPG" />
-        <img class="pics" src="./images/screen.JPG" />
-        <img class="pics" src="./images/study.JPG" />
-
-      </div>
-
-    </section> -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
     <script type="text/javascript" src="dist/bundle.js"></script>
-    <!-- <script>
-      var slideIndex = 0;
-      carousel();
 
-      function carousel() {
-        var i;
-        var x = document.getElementsByClassName("pics");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > x.length) {
-          slideIndex = 1;
-        }
-        x[slideIndex - 1].style.display = "block";
-        setTimeout(carousel, 2000);
+    <script>
+      window.onload = function(){
+        let fa = document.getElementsByClassName('fa');
+        let logo = document.getElementById('logo');
+        TweenLite.fromTo(logo, 1, {x: -500}, {x: 20})
+        TweenLite.fromTo(fa, 1, {x: 300}, {x: -20});
       }
-    </script> -->
-
+    </script>
   </body>
 </html>

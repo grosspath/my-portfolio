@@ -1,6 +1,7 @@
 import React from 'react';
 import ExampleWorkModal from './example-work-modal';
 
+
 class ExampleWork extends React.Component {
   constructor (props) {
     super(props);
@@ -30,7 +31,8 @@ class ExampleWork extends React.Component {
   render() {
     return (
       <span>
-        <section className="section section--alignCentered section--description example__section">
+
+        <section className="container section--alignCentered section--description example__section">
 
           { this.props.work.map( (example, idx) => {
             return (
@@ -44,7 +46,9 @@ class ExampleWork extends React.Component {
 
         <ExampleWorkModal example={this.state.selectedExample}
         open={this.state.modalOpen} closeModal={this.closeModal}/>
+
     </span>
+
     )
   }
 }

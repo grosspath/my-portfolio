@@ -46,97 +46,110 @@
 body {
   font-family: 'Montserrat', serif;
   margin: 0;
+  width: 100%;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: .1rem;
+  letter-spacing: .05rem;
 }
 
 
-/*
-Jumbotron
-*/
+.heading {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  margin: 0;
+  height: 8rem;
+  border-bottom: .1vh solid black;
+}
 
 #bg-video {
-  width: 100%;
+  width: 140rem;
+  position: fixed;
+  z-index: -1;
+  top: 8vh;
+  opacity: 0.5;
 }
 
-/*
-  Helpers
-*/
+/* .jumbotron {
+  width: 100vw;
+} */
 
 .margin--none {
   margin: 0;
 }
 
-.overflow--auto {
-  overflow: auto;
-}
-
-
 /*
   Sections
 */
+.portfolio__section {
+  margin-top: 96vh;
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 4ex;
+  color: white;
 
-
-
-.example__section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  position: relative;
 }
 
-.about-me__section,
-.portfolio__section {
-  height: 5vw;
-  text-align: center;
-  padding-bottom: 2vw;
-  font-size: 3.8vw;
-  color: white;
+.container {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
 .about-me__section {
-  padding-top: 2vw;
   position: relative;
-
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 4ex;
+  color: white;
+}
+.me {
+  background: white;
+   color: black;
 }
 
-.section__example
- {
-  width: 18vh;
-  height: 18vh;
+.section__example {
+  width: 16rem;
+  height: 16rem;
   cursor: pointer;
   overflow: hidden;
   position: relative;
-  border-radius: 0.2vw;
-  padding: 2vh;
-  background-color: rgb(44, 62, 80);
-  margin: 2vh;
+  box-shadow: -10ex 10ex 20ex -10ex grey;
+  margin: 1ex;
 }
 
-.section__example:active {
-  transition: 0.05s all;
-  height: 18vw;
-  width: 18vw;
 
+.section__example:active {
+  transition: 0.35s all;
+  height: 18rem;
+  width: 18rem;
+  position: relative;
 }
 
 .section__exampleTitle {
-  font-size: 1.2vw;
+  font-size: 1.6ex;
   text-transform: uppercase;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-
 }
 
 .section__exampleImage {
-  opacity: 0.4;
   width: 200%;
+  height: 150%;
 
 }
 
@@ -145,30 +158,26 @@ Jumbotron
 */
 
 .section__heading--largest {
-  float: left;
-  font-size: 4vw;
-  margin-left: 2vw;
+  font-size: 6ex;
+  padding-left: 1ex;
+
 }
+
 
 .section--social {
+  margin-top: -9rem;
   float: right;
-  line-height: 6vw;
-  margin-right: 2vw;
+  line-height: 10rem;
+  margin-right: 4rem;
 }
 
-.social {
-  margin-right: 1vw;
-}
-
-.socialWrapper:last-child .social {
-  margin-right: 0;
-}
 
 .socialWrapper {
   display: inline-block;
-  font-size: 2.4vw;
-  margin-top: 1vw;
+  font-size: 4ex;
+  padding-left: 1rem;
 }
+
 
 
 /*
@@ -188,20 +197,20 @@ Jumbotron
   bottom: 0;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 2;
 }
 
 .modal__closeButton {
   position: absolute;
   right: 5rem;
   top: 5rem;
-  font-size: 3vw;
-  z-index: 1;
+  font-size: 3rem;
+  z-index: 2;
   cursor: pointer;
 }
 
 .modal__description {
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 .modal__text {
@@ -219,55 +228,10 @@ Jumbotron
   padding: 0.4rem 1rem;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 .modal__image {
-  opacity: 0.1;
+  opacity: 0.4;
   width: 100%;
-}
-
-.profile {
-  display: flex;
-  justify-content: center;
-  flex-grow:
-}
-
-
-.ideal {
-  width: 80%;
-  font-size: 1vw;
-  margin: 0 auto;
-  padding: 1vw;
-}
-
-.me, .work, .next {
-  font-weight: bolder;
-  font-size: 0.8vw;
-  background-color: #acad94;
-  border: 2px solid black;
-  padding: 1vw;
-  margin: 1vw;
-  width: 20vw;
-  height: 20vw;
-  opacity: 0.9;
-}
-
-img {
-  width: 10vw;
-  display: block;
-  margin: auto;
-}
-
-.homage__section {
-  text-align: center;
-  padding: 2vw;
-  font-size: 2vw;
-}
-
-.homage > img {
-  width: 30vw;
-  padding: 0.1vw;
-  box-shadow: 0 1vw 2vw #000;
-
 }
