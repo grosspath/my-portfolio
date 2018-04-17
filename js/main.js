@@ -23,19 +23,19 @@ const myWork = [
       'comment': ""
     }
   },{
-    'title': "Weather App",
-    'href': "https://s3.amazonaws.com/weatherapppics/weather3.png",
-    'desc': "For this project, the inspiration came from a tutorial produced by Udemy which had the entire project rendered from the index.html page. I refactored it to use React and React-router.",
+    'title': "Full-Stack Weather App",
+    'href': "http://s3.amazonaws.com/weatherapppics/weather3.png",
+    'desc': "This single page application is a full-stack app with a react front-end and a node backend.  The server makes the DarkSky API request.  I use the google API for geolocation.  I used the SkyCons plug-in for the animated weather icons.",
     'image': {
       'desc': "",
-      'src': "./images/weatherApp_recent.png",
+      'src': "./images/Weather_App.png",
       'comment': ""
     }
   },
   {
     'title': "(G)Etsy",
-    'href': " https://s3.amazonaws.com/etsypics/etsy1.png",
-    'desc': "This project was a homework assignment that is intended to be a mock-up of the Etsy website.  It represents a learning point where I combined SCSS, HTML, React, Backbone and an API request to add content.",
+    'href': " http://s3.amazonaws.com/etsypics/etsy1.png",
+    'desc': "This project was a homework assignment that is intended to be a mock-up of the Etsy website.  It represents a learning point where I combined SCSS, HTML, React, Backbone and an API request to add and then style content.",
     'image': {
       'desc': "",
       'src': "./images/work-exam21.png",
@@ -44,21 +44,21 @@ const myWork = [
   },
   {
     'title': "Pomodoro Clock",
-    'href': " https://s3.amazonaws.com/etsypics/etsy1.png",
-    'desc': "This project was a homework assignment that is intended to be a mock-up of the Etsy website.  It represents a learning point where I combined SCSS, HTML, React, Backbone and an API request to add content.",
+    'href': " http://s3.amazonaws.com/etsypics/etsy1.png",
+    'desc': "An Iron Yard homework assignment.  I like to look back on it to remind myself how far I have come.  I like to compare the original code and styling to what is developed using the creat-react module. It was written with pure javascript.",
     'image': {
       'desc': "",
-      'src': "./images/work-exam21.png",
+      'src': "./images/pomodoro.png",
       'comment': ""
     }
   },
   {
     'title': "Oyster API",
-    'href': "https://s3.amazonaws.com/grabbagtictactoe/tictactoe.png",
-    'desc': "These files represent a hodgepodge of projects that range from homework assignments to tutorials I took on-line.  The bulk of my Iron Yard training involved styling with HTML and CSS for the first four weeks.  The remainder of the time was spent on Javascript, jQuery, Backbone and React.  The code can be found in my github repos.",
+    'href': "http://s3.amazonaws.com/grabbagtictactoe/tictactoe.png",
+    'desc': "This one is for the oyster lovers out there.  I have built a CRUD app API to find all of the types of oysters served in the low-country",
     'image': {
       'desc': "",
-      'src': "./images/styling.png",
+      'src': "./images/oyster.jpg",
       'comment': ""
     }
   }

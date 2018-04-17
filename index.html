@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>Jerol Graves: Cloud Developer</title>
     <link rel="stylesheet" href="newStyles.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cardo"/>
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Tenor+Sans"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
   </head>
 
   <body>
@@ -24,7 +24,7 @@
              title="LinkedIn Profile"
              target="_blank"
              href="https://linkedin.com/in/jerolgraves">
-            <i class="fa fa-linkedin"></i>
+            <i class="ico fab fa-linkedin-in"></i>
           </a>
         </li>
 
@@ -34,7 +34,7 @@
              title="GitHub Profile"
              target="_blank"
              href="https://github.com/grosspath">
-            <i class="fa fa-github"></i>
+            <i class="ico fab fa-github"></i>
           </a>
         </li>
 
@@ -44,15 +44,19 @@
              title="Resume"
              target="_blank"
              href="devResume.pdf">
-            <i class="fa fa-file-text"></i>
+            <i class="ico far fa-file-pdf"></i>
           </a>
         </li>
       </ul>
 
     </main>
+
+    <div id="greeting">Welcome To My Portfolio</div>
+
     <section class="background--skyBlue">
 
       <div class="jumbotron">
+
         <video id="bg-video" autoplay="true" loop="loop" preload="metadata" muted="muted">
             <source src="https://s3.amazonaws.com/jumbotron-video/jumbotron-file.mp4" type="video/mp4" />
         </video>
@@ -69,7 +73,22 @@
       <h2 class="about-me__section">
         About Me
       </h2>
+    </section>
 
+    <section>
+      <div  class="about-me__text">
+        <p>
+          CandyCrush is my guilty pleasure.  I know that statement probably disqualifies me from most development jobs, but the app has taught me how design is essential to the user experience.
+          I want to build real-world applications that are visually appealing and functional.  Users should have an enjoyable time with my applications. I want to build, maintain and improve web
+          applications.  The applications need to be responsive.  I am comfortable with Git/GitHub.  I am detail oriented and work well in a team setting.  I perform well under pressure and in a
+          fast-paced environment.
+          My projects continue to grow in size and complexity.  I am hosting my own cloud-based web-site with AWS.  I have written front-end and full-stack apps as well as an API for the oyster lovers
+          of the low-country. My tech stack is javascript (es6), React and node.js and I am proficient in HTML5 and CSS3.
+        </p>
+        <p>I am available for hire.  I also encourage you to reach out with comments about my site. Keep in mind this is a work in progress and I continually try to make it better as a reflection of my
+          coding ability.
+        </p>
+    </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
@@ -77,11 +96,23 @@
 
     <script>
       window.onload = function(){
-        let fa = document.getElementsByClassName('fa');
-        let logo = document.getElementById('logo');
-        TweenLite.fromTo(logo, 1, {x: -500}, {x: 20})
-        TweenLite.fromTo(fa, 1, {x: 300}, {x: -20});
+        let icons = document.getElementsByClassName('ico');
+        let name = document.getElementById('logo');
+        let greeting = document.getElementById('greeting');
+        TweenLite.from(name, 1, {x: -500, ease:Bounce.easeOut});
+        TweenLite.from(icons, 1, {x: 300, ease:Bounce.easeOut});
+        TweenLite.from(greeting, 1,
+          {
+            autoAlpha: 0,
+            delay: 1.5,
+            onComplete: onComplete});
       }
+
+      function onComplete(){
+        TweenLite.set(greeting, {scale: 1, autoAlpha: 1});
+        TweenLite.to(greeting, 3.4, {scale: 0, autoAlpha: 0});
+      }
+
     </script>
   </body>
 </html>
