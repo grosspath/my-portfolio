@@ -24,7 +24,7 @@ const myWork = [
     }
   },{
     'title': "Full-Stack Weather App",
-    'href': "http://s3.amazonaws.com/weatherapppics/weather3.png",
+    'href': "http://weather-portfolio.s3-website-us-east-1.amazonaws.com",
     'desc': "This single page application is a full-stack app with a react front-end and a node backend.  The server makes the DarkSky API request.  I use the google API for geolocation.  I used the SkyCons plug-in for the animated weather icons.",
     'image': {
       'desc': "",
