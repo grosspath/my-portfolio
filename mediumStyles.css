@@ -1,0 +1,317 @@
+/*  FONTS:
+Tenor sans
+Roboto
+Catamaran
+*/
+
+/* COLORS:
+green: #3C594B;
+yellow: #FDCB57;
+light-blue: #CCD7D6;
+light-brown: #BDA58F;
+*/
+
+/*
+  General Styles
+    These are styles to be inherited
+    through parent containers
+*/
+
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #CCD7D6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Catamaran";
+  letter-spacing: .05rem;
+}
+
+p {
+  font-family: "Roboto";
+  letter-spacing: .05rem;
+}
+
+#bg-video {
+  display: block;
+  width: 140rem;
+  position: fixed;
+  z-index: -1;
+  top: 6vh;
+  opacity: 0.4;
+}
+
+#logo {
+  font-size: 2em;
+  color: #fff;
+}
+
+
+.heading {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  border-bottom: .1vh solid black;
+  height: 6em;
+  text-align: center;
+  background-color: #42696C;
+  color: #FFF;
+}
+
+.margin--none {
+  margin: 0;
+}
+
+/*
+Hide social media icons
+*/
+.section--social {
+  display: none;
+}
+
+.small__nav {
+  font-size: 4vw;
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+}
+
+.ico {
+  color: #4B7477;
+  position: relative;
+  z-index: -2;
+  padding-right: 2.8rem;
+  line-height: 4rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+  padding: .4rem;
+}
+
+.small__nav:hover {
+  cursor: pointer;
+}
+
+.side__nav.nav-open {
+  margin-right: 0rem;
+}
+
+.small__nav:hover {
+  cursor: pointer;
+}
+
+.side__nav {
+  position: fixed;
+  top: 7.8rem;
+  right: 0;
+  height: 10rem;
+  width: 6.2rem;
+  box-sizing: border-box;
+  margin-right: -10rem;
+  transition: margin 200ms ease-in-out;
+}
+
+/*
+  Sections
+*/
+.portfolio__section {
+  margin-top: 18vh;
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 4ex;
+  color: #42696C;
+  background-color: #FFF;
+  opacity: 0.5;
+}
+
+.container {
+  margin: 6rem 0;
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.about-me__section {
+  position: relative;
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 4ex;
+  color: #42696C;
+  background-color: #FFF;
+  opacity: 0.5;
+}
+
+.about-me__text {
+  font-size: 1.5rem;
+  font-weight: 100;
+  width: 80vw;
+  height: 30vw;
+  margin: 5vw auto;
+  padding: 2rem;
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+
+.section__example {
+  width: 30rem;
+  height: 26rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  opacity: 0.7;
+  padding: .3em;
+}
+
+.section__example:hover {
+  transition: 0.3s all;
+  position: relative;
+  opacity: 1;
+  box-shadow: 0.8ex 0.8ex 0.7ex #83817C;
+}
+
+.section__example:active {
+  height: 50rem;
+  width: 50rem;
+  position: relative;
+}
+
+.section__exampleTitle {
+  width: 14rem;
+  font-size: 1.8rem;
+  color: #FFF;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.section__exampleImage {
+  width: 115%;
+  height: 115%;
+
+}
+
+/*
+  Header
+*/
+
+.section__heading--largest {
+  font-size: 6ex;
+  padding-left: 1ex;
+  color: #4B7477;
+}
+
+.section--social {
+  margin-top: -9rem;
+  float: right;
+  line-height: 10rem;
+  margin-right: 4rem;
+  color: #4B7477;
+}
+
+
+.socialWrapper {
+  display: inline-block;
+  font-size: 4ex;
+  padding-left: 1rem;
+  color: #4B7477;
+}
+
+
+
+/*
+  Modal
+*/
+
+.modal--closed {
+  display: none;
+}
+
+.modal--open {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: #909788;
+}
+
+.modal__closeButton {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  font-size: 2.4rem;
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.3s all;
+  color: #FFF;
+}
+
+.modal__closeButton:hover {
+  font-size: 2.6rem;
+  top: 2.9rem;
+  right: 2.9rem;
+  transition: 0.3s all;
+  color: #336D72;
+}
+
+.modal__description {
+  font-size: 2rem;
+}
+
+.modal__text {
+  position: absolute;
+  top: 0;
+  font-size: 2.4rem;
+  padding: 2rem;
+  width: 66%;
+}
+
+.modal__link {
+  background-color: #FFF;
+  color: #273233;
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.modal__link:hover {
+  color: #FFF;
+  background-color: #336D72;
+  transition: 0.3s all;
+}
+
+.modal__image {
+  opacity: 0.4;
+  width: 100%;
+}
+
+#greeting {
+  visibility: hidden;
+  /* font-family: 'Love Ya Like A Sister',cursive; */
+  font-family: 'Fredericka the Great', cursive;
+  margin: 20rem auto 0;
+  text-align: center;
+  font-size: 8rem;
+  color: #BA7131;
+}
