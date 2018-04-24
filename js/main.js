@@ -44,8 +44,8 @@ const myWork = [
   },
   {
     'title': "Pomodoro Clock",
-    'href': " http://s3.amazonaws.com/etsypics/etsy1.png",
-    'desc': "An Iron Yard homework assignment.  I like to look back on it to remind myself how far I have come.  I like to compare the original code and styling to what is developed using the creat-react module. It was written with pure javascript.",
+    'href': "  http://pomodoro-portfolio.s3-website-us-east-1.amazonaws.com",
+    'desc': "An Iron Yard homework assignment.  I like to look back on it to remind myself how far I have come.  I like to compare the original code and styling to what is developed using the creat-react module. It was originally written with pure javascript and you can see the original code on my github page assisgnment 16.",
     'image': {
       'desc': "",
       'src': "./images/pomodoro.png",
