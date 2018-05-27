@@ -173,7 +173,13 @@
         }
 
     </script>
-    <script src="util.js"></script>
+     <!-- Toggle mechanism for side nav bar -->
+    <script>
+      let domEl = document.querySelector('.side__nav');
+      domEl.onclick = function(){
+        domEl.classList.toggle('nav-open');
+      };
+    </script>
   </body>
 
 </html>

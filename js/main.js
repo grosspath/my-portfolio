@@ -25,7 +25,7 @@ const myWork = [
   },{
     'title': "Full-Stack Weather App",
     'href': "http://weather-portfolio.s3-website-us-east-1.amazonaws.com",
-    'desc': "This single page application is a full-stack app with a react front-end and a node backend.  The server makes the DarkSky API request.  I use the google API for geolocation.  I used the SkyCons plug-in for the animated weather icons.",
+    'desc': "This single page application is a full-stack app with a react front-end and a node backend.  I can only demonstrate limited functionality due to the complexity of the application versus the manner in which it is being hosted.  The server makes the DarkSky API request.  I used the google API for geolocation.  I used the SkyCons plug-in for the animated weather icons.  This is one where I could use some help from the dev community.  I have scoured the web looking for a way to host a dynamic full-stack app in an S3 bucket utilizing a lambda function.  If anyone has ideas on how to accomplish this without using another technology such as LightSail I would love to hear your thoughts.  Another option would be to host this app on Heroku and point the href to that url.",
     'image': {
       'desc': "",
       'src': "./images/Weather_App.png",
@@ -54,13 +54,22 @@ const myWork = [
   },
   {
     'title': "Oyster API",
-    'href': "http://s3.amazonaws.com/grabbagtictactoe/tictactoe.png",
-    'desc': "This one is for the oyster lovers out there.  I have built a CRUD app API to find all of the types of oysters served in the low-country",
+    'href': "#",
+    'desc': "This one is for the oyster lovers out there.  I am building a CRUD app API to find all of the types of oysters served in the low-country.  Please check back soon to see my progess.",
     'image': {
       'desc': "",
       'src': "./images/oyster.jpg",
       'comment': ""
-    }
+    },
+    {
+      'title': "YelpCamp",
+      'href': "#",
+      'desc': "I am building a CRUD node project with a mongodb database that demonstrates RESTful API calls. Please check back soon to see my progess.",
+      'image': {
+        'desc': "",
+        'src': "./images/YelpCamp.png",
+        'comment': ""
+      }
   }
 ]
 

@@ -67,7 +67,7 @@ Hide social media icons
 }
 
 .ico {
-  color: #4B7477;
+  color: #FFF;
   position: relative;
   z-index: -2;
   padding-right: 2.8rem;
@@ -92,6 +92,7 @@ li {
 
 .side__nav.nav-open {
   margin-right: 0rem;
+  color: #FFF;
 }
 
 .small__nav:hover {
