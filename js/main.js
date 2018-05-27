@@ -60,6 +60,7 @@ const myWork = [
       'desc': "",
       'src': "./images/oyster.jpg",
       'comment': ""
+  }
     },
     {
       'title': "YelpCamp",
