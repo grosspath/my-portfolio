@@ -15,7 +15,7 @@ const myWork = [
   },
   {
     'title': "BudgetApp",
-    'href': "#",
+    'href': "http://budgetapp.s3-website.us-east-2.amazonaws.com",
     'desc': "Vanilla javascript featuring constructors and closures.",
     'image': {
       'desc': "",
@@ -43,7 +43,7 @@ const myWork = [
   },
   {
     'title': "(G)Etsy",
-    'href': " http://s3.amazonaws.com/etsypics/etsy1.png",
+    'href': "http://s3.amazonaws.com/etsypics/etsy1.png",
     'desc': "This project was a homework assignment that is intended to be a mock-up of the Etsy website.  It represents a learning point where I combined SCSS, HTML, React, Backbone and an API request to add and then style content.",
     'image': {
       'desc': "",
@@ -53,7 +53,7 @@ const myWork = [
   },
   {
     'title': "Pomodoro Clock",
-    'href': "  http://pomodoro-portfolio.s3-website-us-east-1.amazonaws.com",
+    'href': "http://pomodoro-portfolio.s3-website-us-east-1.amazonaws.com",
     'desc': "An Iron Yard homework assignment.  I like to look back on it to remind myself how far I have come.  I like to compare the original code and styling to what is developed using the creat-react module. It was originally written with pure javascript and you can see the original code on my github page assisgnment 16.",
     'image': {
       'desc': "",
