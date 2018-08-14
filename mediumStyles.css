@@ -188,6 +188,9 @@ li {
 }
 
 .section__exampleTitle {
+  background-color: #4B7477;
+  padding: .4rem;
+  opacity: .9;
   width: 14rem;
   font-size: 1.8rem;
   color: #FFF;

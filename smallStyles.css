@@ -176,9 +176,12 @@ li {
 }
 
 .section__exampleTitle {
+  background-color: #4B7477;
+  padding: .4rem;
+  opacity: .9;
   width: 14rem;
   font-size: 2rem;
-  color: yellow;
+  color: #fff;
   font-family: "Tenor Sans";
   text-transform: uppercase;
   position: absolute;
