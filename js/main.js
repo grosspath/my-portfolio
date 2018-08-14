@@ -14,6 +14,15 @@ const myWork = [
     }
   },
   {
+    'title': "BudgetApp",
+    'href': "#",
+    'desc': "Vanilla javascript featuring constructors and closures.",
+    'image': {
+      'desc': "",
+      'src': "./images/BudgetApp.png",
+      'comment': ""
+    },
+  {
     'title': "Spotify App",
     'href': "http://jgjamming.s3-website-us-east-1.amazonaws.com",
     'desc': "Working with the spotify API a user can use this app and create a playlist in their spotify account.  Again I used the create react app build and hosted it in an S3 bucket in the AWS cloud.  My tech stack is javascript, React, CSS, and HTML.",
