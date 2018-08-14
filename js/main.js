@@ -21,7 +21,8 @@ const myWork = [
       'desc': "",
       'src': "./images/BudgetApp.png",
       'comment': ""
-    },
+    }
+  },
   {
     'title': "Spotify App",
     'href': "http://jgjamming.s3-website-us-east-1.amazonaws.com",
@@ -31,7 +32,8 @@ const myWork = [
       'src': "./images/Jammming.png",
       'comment': ""
     }
-  },{
+  },
+  {
     'title': "Full-Stack Weather App",
     'href': "http://weather-portfolio.s3-website-us-east-1.amazonaws.com",
     'desc': "This single page application is a full-stack app with a react front-end and a node backend.  I can only demonstrate limited functionality due to the complexity of the application versus the manner in which it is being hosted.  The server makes the DarkSky API request.  I used the google API for geolocation.  I used the SkyCons plug-in for the animated weather icons.  This is one where I could use some help from the dev community.  I have scoured the web looking for a way to host a dynamic full-stack app in an S3 bucket utilizing a lambda function.  If anyone has ideas on how to accomplish this without using another technology such as LightSail I would love to hear your thoughts.  Another option would be to host this app on Heroku and point the href to that url.",
@@ -69,17 +71,17 @@ const myWork = [
       'desc': "",
       'src': "./images/oyster.jpg",
       'comment': ""
-  }
-    },
-    {
-      'title': "YelpCamp",
-      'href': "#",
-      'desc': "I am building a CRUD node project with a mongodb database that demonstrates RESTful API calls. Please check back soon to see my progess.",
-      'image': {
-        'desc': "",
-        'src': "./images/YelpCamp.png",
-        'comment': ""
-      }
+    }
+  },
+  {
+    'title': "YelpCamp",
+    'href': "#",
+    'desc': "I am building a CRUD node project with a mongodb database that demonstrates RESTful API calls. Please check back soon to see my progess.",
+    'image': {
+      'desc': "",
+      'src': "./images/YelpCamp.png",
+      'comment': ""
+    }
   }
 ]
 
