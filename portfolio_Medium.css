@@ -1,0 +1,305 @@
+/*
+Google fonts
+font-family: 'Rammetto One', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Walter Turncoat', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Zeyada', cursive;
+font-family: 'Fontdiner Swanky', cursive;
+font-family: 'Ranchers', cursive;
+font-family: 'Finger Paint', cursive;
+font-family: 'Medula One', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Sarina', cursive;
+*/
+
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.jumbotron {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body-control {
+  background: rgba(255, 255, 255, 0.9);
+  margin-right: -1rem;
+  padding: 0 1.5rem 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.red {
+  color: #CC3333;
+}
+
+.who {
+  margin-top: 10rem;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: 4rem;
+  opacity: 0.6;
+}
+
+.job, .what {
+  font-family: "Tenor Sans";
+  font-weight: 900;
+  color: #000000;
+  line-height: 0.35rem;
+  letter-spacing: 0.03rem;
+  font-size: 1rem;
+}
+
+.job {
+  margin-top: -1.5rem;
+}
+
+.what {
+  margin-bottom: 4rem;
+}
+
+.portfolio__section {
+  width: 100%;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 3rem;
+  color: #000000;
+  padding-top: 4rem;
+}
+
+.about-me__section, .contact-me__section {
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  color: #000000;
+}
+
+.about-me__section {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-me__text {
+  opacity: 0.7;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  line-height: 2rem;
+  text-align: center;
+  width: 80%;
+}
+
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-row-gap: 1.25rem;
+  grid-column-gap: 1.25rem;
+  grid-template-areas:
+
+  "l l l l l l l l"
+  "a a a a b b b b"
+  "c c c d d d d d"
+  "e e e e e e e e"
+  "f f f f g g g g"
+  "h h h i i i i i"
+  "j j j j j j k k"
+}
+
+.hov:hover {
+  cursor: pointer;
+  background-position: -220rem;
+  color: #fff;
+}
+
+.item0 {
+  font-family: 'Rammetto One', cursive;
+  color: #CC3333;
+  grid-area: a;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/rav.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item1 {
+  font-family: 'Walter Turncoat', cursive;
+  color: #CC3333;
+  grid-area: b;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/tiy.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item2 {
+  font-family: 'Lily Script One', cursive;
+  color: #CC3333;
+  grid-area: c;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/clock.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item3 {
+  font-family: 'Zeyada', cursive;
+  color: #CC3333;
+  grid-area: d;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/weather.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item4 {
+  font-family: 'Fontdiner Swanky', cursive;
+  color: #CC3333;
+  grid-area: e;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/yelp.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item5 {
+  font-family: 'Ranchers', cursive;
+  color: #CC3333;
+  grid-area: f;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/oyster1.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item6 {
+  font-family: 'Finger Paint', cursive;
+  color: #CC3333;
+  grid-area: g;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/code.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item7 {
+  font-family: 'Medula One', cursive;
+  color: #CC3333;
+  grid-area: h;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/jam.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item8 {
+  font-family: 'Frijole', cursive;
+  color: #CC3333;
+  grid-area: i;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/scrum.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item9 {
+  font-family: 'Vast Shadow', cursive;
+  color: #CC3333;
+  grid-area: j;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/budget.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.item10 {
+  font-family: 'Sarina', cursive;
+  color: #CC3333;
+  grid-area: k;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/etsy.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+}
+
+.view {
+  display: none;
+  padding: .375rem;
+  border: .125rem #fff solid;
+  width: 111.25rem;
+  height: 2.1875rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -4.375rem;
+}
+
+.description {
+  display: none;
+}
+
+.description {
+  width: 21.875rem;
+}
+
+.name-space {
+  max-height: 10rem;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 3.3rem;
+  text-shadow: .03rem .03rem #eee;
+}
+
+.view, .description {
+  font-size: 1rem;
+}
+
+/*
+  Side Nav
+*/
+
+.side__nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #CC3333;
+  width: 100%;
+}
+
+.ico {
+  margin-left: 16vw;
+  font-size: 2.4rem;
+  color: #fff;
+  padding: 1rem;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}

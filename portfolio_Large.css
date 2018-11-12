@@ -1,0 +1,396 @@
+/*
+Google fonts
+font-family: 'Rammetto One', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Walter Turncoat', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Zeyada', cursive;
+font-family: 'Fontdiner Swanky', cursive;
+font-family: 'Ranchers', cursive;
+font-family: 'Finger Paint', cursive;
+font-family: 'Medula One', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Sarina', cursive;
+*/
+
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#bg-video {
+  grid-area: l;
+  display: block;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  opacity: 0.3;
+}
+
+.body-control {
+  background: #fff;
+  margin-right: -1rem;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+}
+
+.red {
+  color: #CC3333;
+}
+
+.who {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 4rem;
+}
+
+.job, .what {
+  font-family: "Tenor Sans";
+  font-weight: 900;
+  color: black;
+  line-height: 0.35rem;
+  letter-spacing: 0.03rem;
+  font-size: 1rem;
+}
+
+.job {
+  margin-top: -1.5rem;
+}
+
+.what {
+  margin-bottom: 4rem;
+}
+
+.portfolio__section {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  padding-top: 3rem;
+}
+
+.about-me__section, .contact-me__section {
+  position: relative;
+  margin-top: -40rem;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  color: black;
+}
+
+.about-me__section {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-me__text {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding-left: 10rem;
+  padding-bottom: 6rem;
+  line-height: 2rem;
+  text-align: center;
+  width: 80%;
+}
+
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-row-gap: 1.25rem;
+  grid-column-gap: 1.25rem;
+  grid-template-areas:
+  "m l l l l l l l l"
+  "m a a a a b b b b"
+  "m c c c d d d d d"
+  "m e e e e e e e e"
+  "m f f f f g g g g"
+  "m h h h i i i i i"
+  "m j j j j j j k k"
+}
+
+.hov:hover {
+  cursor: pointer;
+  background-position: -220rem;
+  color: #fff;
+}
+
+.item0 {
+  font-family: 'Rammetto One', cursive;
+  color: #CC3333;
+  grid-area: a;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/rav.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item1 {
+  font-family: 'Walter Turncoat', cursive;
+  color: #CC3333;
+  grid-area: b;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/tiy.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item2 {
+  font-family: 'Lily Script One', cursive;
+  color: #CC3333;
+  grid-area: c;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/clock.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item3 {
+  font-family: 'Zeyada', cursive;
+  color: #CC3333;
+  grid-area: d;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/weather.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item4 {
+  font-family: 'Fontdiner Swanky', cursive;
+  color: #CC3333;
+  grid-area: e;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/yelp.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item5 {
+  font-family: 'Ranchers', cursive;
+  color: #CC3333;
+  grid-area: f;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/oyster1.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item6 {
+  font-family: 'Finger Paint', cursive;
+  color: #CC3333;
+  grid-area: g;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/code.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item7 {
+  font-family: 'Medula One', cursive;
+  color: #CC3333;
+  grid-area: h;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/jam.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item8 {
+  font-family: 'Frijole', cursive;
+  color: #CC3333;
+  grid-area: i;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/scrum.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item9 {
+  font-family: 'Vast Shadow', cursive;
+  color: #CC3333;
+  grid-area: j;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/budget.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.item10 {
+  font-family: 'Sarina', cursive;
+  color: #CC3333;
+  grid-area: k;
+  min-height: 12.5rem;
+  background: #CC3333 url(images/etsy.jpg);
+  background-size: cover;
+  transition: background-position .5s ease-out, color .5s ease;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.view {
+  display: none;
+  padding: .375rem;
+  border: .125rem #fff solid;
+  width: 111.25rem;
+  height: 2.1875rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -4.375rem;
+}
+
+.description {
+  display: none;
+}
+
+.description {
+  width: 21.875rem;
+}
+
+/* .name-space {
+  max-height: 10rem;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+} */
+
+.name {
+  font-size: 3.3rem;
+  text-shadow: .03rem .03rem #eee;
+}
+
+.view, .description {
+  font-size: 1rem;
+}
+
+/*
+  Side Nav
+*/
+
+.side__nav {
+  grid-area: m;
+  border-right: .04rem black dotted;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 62rem;
+  background: #fff;
+  z-index: 1;
+  margin-right: 1rem;
+  padding-right: 1rem;
+}
+
+.ico {
+  font-size: 5rem;
+  margin-top: 10rem;
+  color: #CC3333;
+}
+
+li {
+  list-style: none;
+}
+
+/*
+  Modal
+*/
+
+.modal--closed {
+  display: none;
+}
+
+.modal--open {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: #909788;
+}
+
+.modal__closeButton {
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+  font-size: 2.8rem;
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.3s all;
+  color: white;
+}
+
+.modal__closeButton:hover {
+  font-size: 3rem;
+  top: 3.9rem;
+  right: 3.9rem;
+  transition: 0.3s all;
+  color: #336D72;
+}
+
+.modal__description {
+  font-size: 2rem;
+}
+
+.modal__text {
+  position: absolute;
+  top: 0;
+  font-size: 2.4rem;
+  padding: 2rem;
+  width: 66%;
+}
+
+.modal__link {
+  background-color: #FFF;
+  color: #273233;
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.modal__link:hover {
+  color: #FFF;
+  background-color: #336D72;
+  transition: 0.3s all;
+}
+
+.modal__image {
+  opacity: 0.4;
+  width: 100%;
+}
