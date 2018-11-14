@@ -13,6 +13,11 @@ font-family: 'Frijole', cursive;
 font-family: 'Sarina', cursive;
 */
 
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
 .body {
   margin: 0;
   padding: 0;
@@ -50,13 +55,9 @@ a {
   font-family: "Tenor Sans";
   font-weight: 900;
   color: #000000;
-  line-height: 0.35rem;
+  line-height: 1rem;
   letter-spacing: 0.03rem;
   font-size: 0.8rem;
-}
-
-.job {
-  margin-top: -1.5rem;
 }
 
 .what {
@@ -109,8 +110,6 @@ h1 {
 
 .hov:hover {
   cursor: pointer;
-  background-position: -220rem;
-  color: #fff;
 }
 
 .item0 {
@@ -272,8 +271,7 @@ h1 {
 }
 
 .name {
-  font-size: 3.3rem;
-  text-shadow: .03rem .03rem #eee;
+  font-size: 2.2rem;
 }
 
 .view, .description {
