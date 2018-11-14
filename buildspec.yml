@@ -8,9 +8,6 @@ phases:
   build:
     commands:
       - npm run webpack
-  post-build:
-    commands:
-      - echo
 artifacts:
   files:
     - index.html
