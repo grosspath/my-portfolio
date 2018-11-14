@@ -292,6 +292,7 @@ h1 {
   background: #fff;
   width: 100%;
   border-bottom: 0.04rem dotted #000;
+  height: 4.4rem;
 }
 
 .ico {
@@ -299,6 +300,24 @@ h1 {
   font-size: 2.4rem;
   color: #CC3333;
   padding: 1rem;
+}
+
+.linkedin {
+  position: fixed;
+  left: 1vw;
+  top: 0;
+}
+
+.github {
+  position: fixed;
+  left: 32vw;
+  top: 0;
+}
+
+.resume {
+  position: fixed;
+  left: 64vw;
+  top: 0;
 }
 
 li {

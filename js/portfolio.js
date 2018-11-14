@@ -13,25 +13,25 @@ class Portfolio extends React.Component {
             }
 
         <div className="side__nav">
-          <ul>
-            <li className="socialWrapper">
-              <a className="color--skyBlue social"
+          <ul className="icon_control">
+            <li>
+              <a className="linkedin"
                  title="LinkedIn Profile"
                  target="_blank"
                  href="https://linkedin.com/in/jerolgraves">
                 <i className="ico fab fa-linkedin-in"></i>
               </a>
             </li>
-            <li className="socialWrapper color--skyBlue">
-              <a className="social color--skyBlue"
+            <li>
+              <a className="github"
                  title="GitHub Profile"
                  target="_blank"
                  href="https://github.com/grosspath">
                 <i className="ico fab fa-github"></i>
               </a>
             </li>
-            <li className="socialWrapper">
-              <a className="social color--skyBlue"
+            <li>
+              <a className="resume"
                  title="Resume"
                  target="_blank"
                  href="AnalystResume.pdf">
