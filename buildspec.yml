@@ -1,4 +1,4 @@
-version: 0.2
+version: 0.3
 
 phases:
   pre_build:
@@ -13,5 +13,7 @@ artifacts:
     - index.html
     - images/*
     - devResume.pdf
-    - styles.css
+    - portfolio_Large.css
+    - portfolio_Medium.css
+    - portfolio_Small.css
     - dist/bundle.js
